@@ -1,0 +1,106 @@
+@import url("https://fonts.google.com/specimen/Red+Hat+Display");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+}
+body {
+  height: 100vh;
+  background-color: #e0e8ff;
+  background-image: url("/ChallegeOne/images/pattern-background-desktop.svg");
+  background-repeat: repeat-x;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.caixa {
+  width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.caixa img {
+  width: 400px;
+  border-radius: 10px 10px 0 0;
+}
+.caixa h1 {
+  font-family: "Red Hat Display", sans-serif;
+  color: #1f2f56;
+  text-align: center;
+}
+.descricao {
+  padding: 1px 21px;
+  font-family: "Red Hat Display", sans-serif;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7280a7;
+}
+.des {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 20px;
+  background-color: rgba(225, 240, 250, 0.575);
+  border-radius: 10px;
+}
+.des strong {
+  font-size: 23px;
+  font-weight: 700;
+  color: #1f2f56;
+}
+.des span {
+  display: inline-block;
+  font-size: 23px;
+  color: #7280a7;
+}
+.infos {
+  display: flex;
+  flex-direction: column;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 21px;
+  align-items: center;
+  padding: 10px;
+}
+.infos strong {
+  font-weight: 700;
+}
+.des img {
+  height: 55px;
+  width: 55px;
+}
+.des a {
+  font-weight: 700;
+  font-size: 16px;
+  color: #3829e0;
+  font-family: "Red Hat Display", sans-serif;
+}
+.bg {
+  margin: 0 20px;
+}
+.btn {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+.btn1 {
+  font-size: 19px;
+  background: #3829e0;
+  font-size: 20px;
+  color: #fff;
+  align-items: center;
+  height: 60px;
+  font-family: "Red Hat Display", sans-serif;
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+}
+.btn2 {
+  font-size: 19.2px;
+  color: #7280a7;
+  font-family: "Red Hat Display", sans-serif;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
